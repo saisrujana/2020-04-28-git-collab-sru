@@ -7,4 +7,9 @@ Git collaboration workshop
 
 ## Branches
 - `git branch <branchname>`: create new branch
-- `git switch <branchname>`:
+- `git switch <branchname>`: move to  branch
+   - `git checkout <branch_name>`: old way of moving to branch
+
+- `git switch -c <branchname>`: create and move in 1 command
+   - `git checkout -b <branchname>`
+- `git branch -d <branchname>`: to delete the brach
