@@ -1,3 +1,4 @@
+
 # 2020-04-28-git-collaboration-sru
 Git collaboration workshop
 
@@ -17,4 +18,5 @@ Git collaboration workshop
 #trying git stash for temporary commit
 - `git stash`: to make temporary commit to avoid (add commit switch)
 - `git stash list`: to see the stash
-- `git stash apply`: to apply the commit
+- `git stash apply`: to apply the stash
+- `git stash clear`: to clear the stash
