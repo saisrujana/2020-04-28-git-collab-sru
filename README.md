@@ -15,8 +15,16 @@ Git collaboration workshop
    - `git checkout -b <branchname>`
 - `git branch -d <branchname>`: to delete the brach
 
-#trying git stash for temporary commit
+### trying git stash for temporary commit
 - `git stash`: to make temporary commit to avoid (add commit switch)
 - `git stash list`: to see the stash
 - `git stash apply`: to apply the stash
 - `git stash clear`: to clear the stash
+
+## pull requests (Online Merge)
+- `git push origin <branchname>`: pushes branch to remote
+   - this is where you ll create the PR (online)
+   - you merge the PR (and also the branch) by accepting and mergin the PR
+- don't forget to clean up your branches
+- `git fetch --prune`" cleans up references in your `git log --oneline --graph --decorate
+
