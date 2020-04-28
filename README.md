@@ -13,3 +13,8 @@ Git collaboration workshop
 - `git switch -c <branchname>`: create and move in 1 command
    - `git checkout -b <branchname>`
 - `git branch -d <branchname>`: to delete the brach
+
+#trying git stash for temporary commit
+- `git stash`: to make temporary commit to avoid (add commit switch)
+- `git stash list`: to see the stash
+- `git stash apply`: to apply the commit
